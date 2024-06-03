@@ -8,6 +8,7 @@ body {
     font-family: 'Raleway', sans-serif;
     background-color: #fffafc;
     color: #333;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -25,7 +26,7 @@ header h1 {
 }
 
 nav a {
-    color: #333;
+    color: #fff;
     margin: 0 1rem;
     text-decoration: none;
     font-weight: 700;
@@ -33,7 +34,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffccdd;
+    color: #ff88aa;
 }
 
 .container {
@@ -54,10 +55,35 @@ h2 {
     font-size: 2rem;
     color: #ff88aa;
     margin-bottom: 1rem;
+    position: relative;
+}
+
+h2::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    background: #ff88aa;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    border-radius: 2px;
 }
 
 .about, .projects, .contact {
     margin: 2rem 0;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .project {
