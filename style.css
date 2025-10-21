@@ -161,7 +161,7 @@ html {
 
 .home .home-content a:hover {
   color: white;
-  background: #000;
+  background: #39152E;
 }
 
 /* all similar content styling code */
@@ -215,7 +215,7 @@ section .title::after {
 
 .skills,
 .contact {
-  background: #68445D;
+  background: #39152E;
   color: #fff;
 }
 .skills .title::before,
@@ -428,7 +428,7 @@ section .title::after {
 
 /* contact section styling */
 .contact .title::after {
-  background: #111;
+  background: #39152E;
   content: "get in touch";
 }
 .contact .contact-content .column {
@@ -688,6 +688,7 @@ footer span a:hover {
     width: 250px;
   }
 }
+
 
 
 
