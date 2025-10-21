@@ -12,6 +12,11 @@
 html {
   scroll-behavior: smooth;
 }
+.menu .text-1 .text-2 .text-3
+{
+  -webkit-text-stroke: 1px black;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
 /* Navbar Styling*/
 .navbar {
   position: fixed;
@@ -688,6 +693,7 @@ footer span a:hover {
     width: 250px;
   }
 }
+
 
 
 
