@@ -113,7 +113,10 @@ html {
   transition: opacity 0.1s ease;
   opacity: 1 !important;
 }
-
+h1, h2, h3, p, span {
+  color: white; /* your main text color */
+  -webkit-text-stroke: 1px black; /* outline color and thickness */
+}
 /* Home Section Styling */
 .home {
   display: flex;
@@ -688,3 +691,4 @@ footer span a:hover {
     width: 250px;
   }
 }
+
