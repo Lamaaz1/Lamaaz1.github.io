@@ -12,6 +12,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 /* Navbar Styling*/
 .navbar {
   position: fixed;
@@ -161,7 +162,7 @@ html {
 
 .home .home-content a:hover {
   color: white;
-  background: #000;
+  background: #5A4256;
 }
 
 /* all similar content styling code */
@@ -215,7 +216,7 @@ section .title::after {
 
 .skills,
 .contact {
-  background: #111;
+  background: #5A4256;
   color: #fff;
 }
 .skills .title::before,
@@ -320,7 +321,7 @@ section .title::after {
 
 /* skills section styling */
 .skills .title::after {
-  background: #111;
+  background: #fff;
   content: "what i know";
 }
 .skills .skills-content .column {
@@ -428,7 +429,7 @@ section .title::after {
 
 /* contact section styling */
 .contact .title::after {
-  background: #111;
+  background: #5A4256;
   content: "get in touch";
 }
 .contact .contact-content .column {
@@ -688,3 +689,25 @@ footer span a:hover {
     width: 250px;
   }
 }
+  .text-2
+{
+  -webkit-text-stroke: 0.5px black;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+  .menu,.text-1,.text-3
+{
+  -webkit-text-stroke: 0.2px black;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
